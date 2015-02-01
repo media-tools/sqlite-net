@@ -7,9 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{EAF7E19F-DAD2-4767-88EC-C6D6C484BC02}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Sqlite</RootNamespace>
-    <AssemblyName>Sqlite</AssemblyName>
-    <ReleaseVersion>0.3</ReleaseVersion>
+    <RootNamespace>SQLiteNet</RootNamespace>
+    <AssemblyName>SQLiteNet</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,12 +32,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\AssemblyInfo.cs" />
-    <Compile Include="src\SQLite.cs" />
-    <Compile Include="src\SQLiteAsync.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="SQLiteAsync.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Folder Include="src\" />
-  </ItemGroup>
 </Project>
