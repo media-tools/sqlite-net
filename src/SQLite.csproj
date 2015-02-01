@@ -9,6 +9,8 @@
     <OutputType>Library</OutputType>
     <RootNamespace>SQLiteNet</RootNamespace>
     <AssemblyName>SQLiteNet</AssemblyName>
+    <ReleaseVersion>0.5</ReleaseVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
