@@ -5,9 +5,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EAF7E19F-DAD2-4767-88EC-C6D6C484BC02}</ProjectGuid>
+    <ProjectGuid>{EAF7E19F-DAD2-4767-88EC-C6D6C484BC03}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>SQLiteNet</RootNamespace>
+    <RootNamespace>SQLite</RootNamespace>
     <AssemblyName>SQLiteNet</AssemblyName>
     <ReleaseVersion>0.5</ReleaseVersion>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
